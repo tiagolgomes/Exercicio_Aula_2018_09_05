@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
+
 public class exercicio_02 extends Activity {
 
     private EditText editIdade;
