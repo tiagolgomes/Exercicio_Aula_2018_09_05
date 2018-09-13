@@ -15,45 +15,27 @@ public class exercicio_02 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercicio_02);
+        editIdade = findViewById(R.id.editIdade);
+        textCategoria = findViewById(R.id.textCategoria);
     }
 
     public void categoria(View view){
-
-        String suaCategoria;
-
-        int idade;
-
-        idade = Integer.parseInt(editIdade.getText().toString());
-
-        switch (idade){
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-                suaCategoria = "Você não tem a Idade Mínima para Participar";
-                break;
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-                suaCategoria = "Infantil";
-                break;
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-                suaCategoria = "Juvenil";
-                break;
-            default:
-                suaCategoria = "Adulto";
-                break;
+        int idade = Integer.parseInt(editIdade.getText().toString());
+        if(idade<8){
+            String suaCategoria = "VOCÊ NÃO TEM A IDADE MINIMA PARA PARTICIPAR";
+            textCategoria.setText(suaCategoria);
         }
-
-       textCategoria.setText(String.valueOf(suaCategoria));
+        else if(idade==8 || idade<=12){
+            String suaCategoria = "INFANTIL";
+            textCategoria.setText(suaCategoria);
+        }
+        else if(idade==13 || idade<=17){
+            String suaCategoria = "JUVENIL";
+            textCategoria.setText(suaCategoria);
+        }
+        else {
+            String suaCategoria = "ADULTO";
+            textCategoria.setText(suaCategoria);
+        }
     }
 }

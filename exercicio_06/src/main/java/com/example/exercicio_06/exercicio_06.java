@@ -21,6 +21,14 @@ public class exercicio_06 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercicio_06);
+        editAltura1 = findViewById(R.id.editAltura1);
+        editAltura2 = findViewById(R.id.editAltura2);
+        editAltura3 = findViewById(R.id.editAltura3);
+        editAltura4 = findViewById(R.id.editAltura4);
+        editAltura5 = findViewById(R.id.editAltura5);
+        editAltura6 = findViewById(R.id.editAltura6);
+        textMedia = findViewById(R.id.textMedia);
+        textDesvioPadrao = findViewById(R.id.textDesvioPadrao);
     }
 
     public void mediaEdesvioPadrao(View view) {

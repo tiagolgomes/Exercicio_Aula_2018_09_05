@@ -17,6 +17,10 @@ public class exercicio_07 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercicio_07);
+        editA = findViewById(R.id.editA);
+        editB = findViewById(R.id.editB);
+        editC = findViewById(R.id.editC);
+        textResultado = findViewById(R.id.textResultado);
     }
 
     public void baskara(View view){
