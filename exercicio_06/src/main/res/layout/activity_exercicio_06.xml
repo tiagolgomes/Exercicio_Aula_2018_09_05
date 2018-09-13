@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercicio_06"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editAltura1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALTURA 1"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/editAltura2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALTURA 2"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/editAltura3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALTURA 3"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/editAltura4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALTURA 4"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/editAltura5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALTURA 5"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/editAltura6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALTURA 6"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="45dp"
+        android:onClick="mediaEdesvioPadrao"
+        android:text="CALCULAR"
+        />
+
+    <TextView
+        android:id="@+id/textMedia"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textDesvioPadrao"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

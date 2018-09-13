@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">exercicio_03</string>
+
+    <string-array name="perguntas">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+</resources>

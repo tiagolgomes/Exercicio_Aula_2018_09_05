@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">exercicio_05</string>
+
+    <string-array name="perguntas1">
+        <!-- Qual a capital do Paraná !-->
+        <item>Curitiba</item>
+        <item>São Paulo</item>
+        <item>Porto Alegre</item>
+        <item>Florianópolis</item>
+    </string-array>
+
+    <string-array name="perguntas2">
+        <!-- Qual a cor do Cavalo Branco de Napoleão !-->
+        <item>Marrom</item>
+        <item>Vermelho</item>
+        <item>Preto</item>
+        <item>Branco</item>
+    </string-array>
+
+    <string-array name="perguntas3">
+        <!-- 2 x 2 + 2 x 3 = ? !-->
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="perguntas4">
+        <!-- Qual o maior site !-->
+        <item>Yahoo</item>
+        <item>Bing</item>
+        <item>Goggle</item>
+    </string-array>
+
+    <string-array name="perguntas5">
+        <!-- Que cor é o Brocólis !-->
+        <item>Vermelho</item>
+        <item>Amarelo</item>
+        <item>Marrom</item>
+        <item>Verde</item>
+        <item>Preto</item>
+    </string-array>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercicio_05"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder questão 01"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:onClick="onRadioButtonClicked1"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual a capital do Paraná?"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/perguntas1"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder questão 02"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81dp"
+        android:onClick="onRadioButtonClicked2"/>/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Qual a cor do Cavalo Branco de Napoleão?"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/perguntas2"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder questão 03"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:onClick="onRadioButtonClicked3"/>/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 x 2 + 2 x 3 = ?"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/perguntas3"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder questão 04"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="247dp"
+        android:onClick="onRadioButtonClicked4"/>/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual o maior site?"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/perguntas4"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder questão 05"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="315dp"
+        android:onClick="onRadioButtonClicked5"/>/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que cor é o Brocólis?"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/perguntas5"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/btnClique1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:onClick="responder"
+        android:text="Responder"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/btnClique2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:onClick="reiniciar"
+        android:text="Reiniciar Quiz"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+</LinearLayout>

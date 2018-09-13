@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercicio_04"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Qual a capital do Paraná?"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/perguntas1"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Qual a cor do Cavalo Branco de Napoleão?"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/perguntas2"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="2 x 2 + 2 x 3 = ?"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/perguntas3"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Qual o maior site?"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/perguntas4"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Que cor é o Brocólis?"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerguntas5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/perguntas5"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/btnClique1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="responder"
+        android:text="Responder"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+</LinearLayout>
